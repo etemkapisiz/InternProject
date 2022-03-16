@@ -1,0 +1,117 @@
+body {
+    background: url("/daily_ui_day1_sign_in/images/photo_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+ 
+    font-family: 'Lato', sans-serif;
+    min-height: 1000px;
+    
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1#title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 3.2em;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 50px;
+    position: relative;
+	top: 0px;
+}
+
+h1#title span span {
+	font-weight: 400;
+}
+.best-sellers h1{
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+}
+
+
+.best-sellers .product-slider {
+    margin-top: 65px;
+
+}
+
+.best-sellers .product-slider .container{
+    display: flex;
+    height: 450px;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+.best-sellers .product-slider .product {
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    width: 33%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+}
+
+.best-sellers .product-slider .product .product-info{
+    margin-top: 50px;
+}
+
+
+.best-sellers .product-slider .product .product-info img{
+    max-width: 240px;
+    margin-top: -90px;
+    height: 238.8px;
+}
+
+
+.best-sellers .product-slider .product .product-info .title{
+    color: #000;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .35px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.best-sellers .product-slider .product .product-info .categories{
+    color: #666;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: .35px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.best-sellers .product-slider .product .product-info button{
+    height: 50px;
+    width: 219.5px;
+    background-color: rgb(223 154 27 / 70%);
+    border: 2px solid #000;
+    border-radius: 220px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: .4px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.best-sellers .product-slider .product .product-info button a{
+    text-decoration: none;
+    color: #000;
+}
